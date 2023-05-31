@@ -36,12 +36,6 @@ def search(book: list[str], info: str) -> list[str] | str:
         return search(result,new_info)
     return 'Совпадений не найдено'
     
-# with open('book.txt','r', encoding='utf 8') as file:
-#    data = file.read()
-# print(data)
-# data_to_find = input('введите данные для поиска: ')
-# data = data.split('\n')[1::] # берём первый элемент
-# print(data)  
 
 def change() -> None:
     """Изменение или удаление данных в справочнике"""
